@@ -1,0 +1,23 @@
+{
+    "debito": {
+        "type": "Na hora",
+        "tax": 1.99
+    },
+    "credito": {
+        "type": "A vista",
+        "taxes": [
+            {
+                "type": "Na hora",
+                "tax": 4.99
+            },
+            {
+                "type": "14 Dias",
+                "tax": 3.99
+            },
+            {
+                "type": "30 dias",
+                "tax": 3.19
+            }
+        ]
+    }
+}

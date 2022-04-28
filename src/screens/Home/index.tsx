@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTheme } from 'styled-components';
 
 import KSTaxas from '../../assets/kstaxas.svg';
-import { Button } from '../../components/Button';
 
 import {
     Container,
@@ -13,10 +12,33 @@ import {
     ContainerType,
     GroupButtons,
     DebitButton,
-    CreditButton
+    CreditButton,
+    CashButton,
 } from './styles';
 
 export function Home() {
+    const [debito, setDebito] = useState<boolean>(false);
+    const [credito, setCredito] = useState<boolean>(false);
+    const [dinheiro, setDinheiro] = useState<boolean>(false);
+
+    function handleDebito() {
+        setDebito(true);
+        setCredito(false);
+        setDinheiro(false);
+    }
+
+    function handleCredito() {
+        setDebito(false);
+        setCredito(true);
+        setDinheiro(false);
+    }
+
+    function handleDinheiro() {
+        setDebito(false);
+        setCredito(false);
+        setDinheiro(true);
+    }
+
     const theme = useTheme();
     return (
         <Container>
@@ -28,7 +50,15 @@ export function Home() {
                 <InputValue selectionColor={theme.colors.secondaryColor} keyboardType='number-pad' />
                 <ContainerType>
                     <GroupButtons>
-                        <Button title="debito" />
+                        <DebitButton enable={debito} onPress={handleDebito}>
+                            <Title> Débito </Title>
+                        </DebitButton>
+                        <CreditButton enable={credito} onPress={handleCredito}>
+                            <Title> Crédito </Title>
+                        </CreditButton>
+                        <CashButton enable={dinheiro} onPress={handleDinheiro}>
+                            <Title>Dinheiro</Title>
+                        </CashButton>
                     </GroupButtons>
                 </ContainerType>
             </Content>

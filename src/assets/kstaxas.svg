@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="41.073448mm"
+   height="9.514143mm"
+   viewBox="0 0 41.073448 9.514143"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="kstaxas.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="44.867038"
+     inkscape:cy="36.123726"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-bottom="1"
+     fit-margin-right="1"
+     fit-margin-left="1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-87.225687,-133.65782)">
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:10.5833px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';stroke-width:0.264583"
+       x="86.934525"
+       y="142.11905"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="86.934525"
+         y="142.11905"
+         style="stroke-width:0.264583"><tspan
+           style="fill:#e91e63;fill-opacity:1"
+           id="tspan839">KS</tspan><tspan
+           style="fill:#6d6d6d;fill-opacity:1"
+           id="tspan841">taxas</tspan></tspan></text>
+    <path
+       style="fill:none;stroke-width:0.252538"
+       d="M 3.8295904,18.067249 V 4.1776516 H 4.7134739 5.5973573 V 13.1638 c 0,5.045222 0.097116,8.949232 0.2214444,8.90197 0.1217944,-0.0463 4.1109451,-4.090066 8.8647793,-8.986149 8.610691,-8.8683482 8.647274,-8.9019694 9.686166,-8.9019694 h 1.04283 l -2.64645,2.714785 c -1.455548,1.4931317 -4.168768,4.2667054 -6.029378,6.1634964 -2.06406,2.104199 -3.327715,3.581014 -3.241308,3.788072 0.07789,0.186648 2.548341,3.123594 5.489891,6.526545 2.94155,3.402951 5.802527,6.726985 6.357728,7.38674 l 1.009456,1.199557 h -1.013764 c -1.011285,0 -1.028705,-0.01705 -7.125726,-6.973217 l -6.111962,-6.973216 -3.2518534,3.244635 -3.2518533,3.244635 v 3.728581 3.728582 H 4.7134739 3.8295904 Z"
+       id="path14"
+       transform="matrix(0.26458333,0,0,0.26458333,87.225687,133.65782)" />
+  </g>
+</svg>

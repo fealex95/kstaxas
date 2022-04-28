@@ -8,6 +8,7 @@ import theme from './src/theme/theme';
 import { Home } from './src/screens/Home';
 import { useFonts, Montserrat_400Regular } from '@expo-google-fonts/montserrat';
 import { Poppins_300Light } from '@expo-google-fonts/poppins'
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -20,12 +21,12 @@ export default function App() {
   }
 
   return (
-    <>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <ThemeProvider theme={theme}>
         <StatusBar backgroundColor="transparent" barStyle='light-content' translucent />
         <Home />
       </ThemeProvider>
-    </>
+    </GestureHandlerRootView>
 
   );
 }

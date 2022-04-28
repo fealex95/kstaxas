@@ -1,6 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
-import AppLoading from 'expo-app-loading'
+import AppLoading from 'expo-app-loading';
+import 'react-native-gesture-handler';
 
 import { ThemeProvider } from 'styled-components';
 import theme from './src/theme/theme';

@@ -73,3 +73,50 @@ export const CashButton = styled(RectButton) <ButtonProps>`
     border-radius: 5px;
 `;
 
+export const ComissionContainer = styled.View`
+    width: 100%;
+    flex-direction: row;
+    background-color: ${({ theme }) => theme.colors.primaryColorLight};
+    border-radius: 5px;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+`;
+
+export const Comission = styled.Switch``;
+
+export const ResultContainer = styled.View`
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: ${({ theme }) => theme.colors.primaryColorLight};
+    padding-bottom: 20px;
+`;
+
+export const Receive = styled.View`
+    flex-direction: row;
+    justify-content: space-around;
+`;
+
+export const Discount = styled(Receive)``;
+
+export const ComissionDiscount = styled(Receive)``;
+
+export const NetValue = styled.View`
+    flex-direction: row;
+    justify-content: space-around;
+`;
+
+export const ResultText = styled.Text`
+    font-family: ${({ theme }) => theme.fonts.primary};
+    color: ${({ theme }) => theme.colors.fontColor};
+    font-size: ${RFValue(16)}px;
+    padding: 20px 0px 0px 10px;
+`;
+
+export const ResultValue = styled.Text`
+    font-family: ${({ theme }) => theme.fonts.primary};
+    color: ${({ theme }) => theme.colors.fontColor};
+    font-size: ${RFValue(16)}px;
+    padding: 20px 0px 0px 10px;
+`;

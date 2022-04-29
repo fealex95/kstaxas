@@ -19,5 +19,8 @@
                 "tax": 3.19
             }
         ]
+    },
+    "comission": {
+        "percent": 30
     }
 }

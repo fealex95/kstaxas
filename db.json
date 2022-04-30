@@ -23,6 +23,8 @@
     "comission": {
         "percent": 30
     },
-    "CashierPercent": 50,
-    "MoneyPercent": 50
+    "balance": {
+        "CashierPercent": 50,
+        "MoneyPercent": 50
+    }
 }

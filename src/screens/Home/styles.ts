@@ -102,10 +102,7 @@ export const Discount = styled(Receive)``;
 
 export const ComissionDiscount = styled(Receive)``;
 
-export const NetValue = styled.View`
-    flex-direction: row;
-    justify-content: space-around;
-`;
+export const NetValue = styled(Receive)``;
 
 export const ResultText = styled.Text`
     font-family: ${({ theme }) => theme.fonts.primary};
@@ -120,3 +117,29 @@ export const ResultValue = styled.Text`
     font-size: ${RFValue(16)}px;
     padding: 20px 0px 0px 10px;
 `;
+
+export const DividerContainer = styled.View`
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: ${({ theme }) => theme.colors.primaryColorLight};
+    border-radius: 5px;
+    align-items: center;
+`;
+
+export const CashierContainer = styled.View`
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+`;
+
+export const Amount = styled.Text`
+    color: ${({ theme }) => theme.colors.fontColor};
+    font-size: ${RFValue(25)}px;
+    font-family: ${({ theme }) => theme.fonts.secondary};
+    padding-top: 10px;
+`;
+
+export const MoneyContainer = styled(CashierContainer)``;
